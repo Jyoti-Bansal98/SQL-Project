@@ -8,7 +8,7 @@ FROM layoffs;
 -- 3. Null Values or blank values
 -- 4. Remove any columns
 
-CREATE TABLE layoffs_staging
+CREATE TABLE layoffs_staging 
 LIKE layoffs;
 
 SELECT *
